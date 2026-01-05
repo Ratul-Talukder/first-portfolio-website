@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* background-color: aqua; */
+
+}
+/* Shared Style */
+header {
+  background-color: #FFF8F3;
+  padding-top: 50px;
+}
+
+.btn {
+  background-color: #FD6E0A;
+  border: none;
+  padding: 18.28px 35px 19.3px 36px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+
+/* Individual Style */
+nav {
+  width: 71%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+  margin: 0px auto;
+  align-items: center;
+
+}
+
+
+
+nav .logo h2 {
+  font-size: 45px;
+  font-weight: 800;
+}
+.logo h2 span{
+  color: #FD6E0A;
+}
+
+nav .menu ul{
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
+}
+nav .menu ul .sub-menu .sub-menu{
+  display: flex;
+  width: 170px;
+  justify-content: space-between;
+}
+nav .menu ul .sub-menu .sub-menu a {
+  font-size: 20px;
+  color: #474747;
+  text-decoration: none;
+}
+
+
+
+/* .menu li {
+  list-style: none;
+
+} */
